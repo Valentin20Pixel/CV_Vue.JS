@@ -38,20 +38,14 @@
     
     <v-content>
       <Home/>
-    </v-content>
-    <v-content class="mt-16">
-      <hobbies/>
-    </v-content>
-    <v-content>
+      <parallaxCom/>
+      <competence/>
+      <parallaxFor/>
       <formation/>
-    </v-content>
-    <v-content>
-      <profil/>
-    </v-content>
-    <v-content>
+      <parallaxExp/>
       <experience/>
-    </v-content>
-    <v-content>
+      <parallaxHob/>
+      <hobbies/>
       <foot/>
     </v-content>
 
@@ -63,9 +57,13 @@
 import Home from './components/Home';
 import hobbies from './components/hobbies';
 import experience from './components/experience';
-import profil from './components/profil';
+import competence from './components/competence';
 import formation from './components/formation';
 import foot from './components/foot';
+import parallaxCom from'./components/parallaxCom';
+import parallaxFor from'./components/parallaxFor';
+import parallaxExp from'./components/parallaxExp';
+import parallaxHob from'./components/parallaxHob';
 
 
 
@@ -77,9 +75,15 @@ export default {
     Home,
     hobbies,
     experience,
-    profil,
+    competence,
     formation,
     foot,
+    parallaxCom,
+    parallaxFor,
+    parallaxExp,
+    parallaxHob,
+
+
   },
 
   data: () => ({

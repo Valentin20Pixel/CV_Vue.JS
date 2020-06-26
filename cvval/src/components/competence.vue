@@ -1,8 +1,5 @@
 <template>
 <v-container>
-  <v-row 
-  justify="center"
-  ><h2>Compétences</h2></v-row>
   <v-divider></v-divider>
   <v-divider></v-divider>
   <v-row>
@@ -121,6 +118,8 @@
   </v-card>
   </v-col>
   </v-row>
+  <v-divider></v-divider>
+  <v-divider></v-divider>
   </v-container>
 </template>
 
