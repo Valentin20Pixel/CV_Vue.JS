@@ -36,35 +36,35 @@
     data: () => ({
       years: [
         {
-          color: 'cyan',
+          color: 'green',
           year: '2010-2012',
           job: 'Manoeuvre',
           des: 'Intérimaire à plein temps pendants les periodes de vacances scolaires. AMIENS.',
           entre: 'SIGNATURE'
         },
         {
-          color: 'green',
+          color: 'amber',
           year: '2012-2016',
           job: 'Chef d\'équipe',
           des: 'Intérimaire à plein temps et CDD pendant 10 mois. J\'ai fais de l\'implantation de parking, gestion d\'équipes etc... AMIENS, ROUEN.',
           entre: 'SIGNATURE',
         },
         {
-          color: 'pink',
+          color: 'orange',
           year: '2017-2018',
           job: 'Opérateur sur gaufreuse',
           des: 'Intérimaire à plein temps en 3/8. J\'ai commencé en tant qu\'aide au carton pour finir en tant qu\'opérateur-régleur sur une gaufreuse industrielle dans l\'une des derniers entreprises de papier peint. MOREUIL',
           entre: 'UGEPA',
         },
         {
-          color: 'amber',
+          color: 'cyan',
           year: '2018',
           job: 'Manutentionnaire',
           des: 'Intérimaire à plein temps dans une entreprise de logistique. MOREUIL',
           entre: 'ID LOGISTIC',
         },
         {
-          color: 'orange',
+          color: 'pink',
           year: '2019',
           job: 'Chauffeur PL/SPL',
           des: 'Intérimaire dans une entreprise de transport dans les Hauts de France.',

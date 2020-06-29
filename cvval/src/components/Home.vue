@@ -47,7 +47,7 @@
 <style>
 
 .homename {
-  background-color: rgba(5, 5, 5, 0.5);
+  background-color: rgba(5, 5, 5, 0.376);
   position: relative;
   text-align: center;
   color: white;

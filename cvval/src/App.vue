@@ -38,6 +38,7 @@
     
     <v-content>
       <Home/>
+
       <parallaxCom/>
       <competence/>
       <parallaxFor/>
@@ -64,6 +65,7 @@ import parallaxCom from'./components/parallaxCom';
 import parallaxFor from'./components/parallaxFor';
 import parallaxExp from'./components/parallaxExp';
 import parallaxHob from'./components/parallaxHob';
+
 
 
 

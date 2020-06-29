@@ -15,6 +15,7 @@
           v-for="(year, i) in years"
           :key="i"
           :icon="icon ? 'mdi-buffer' : ''"
+          :color="year.color"
         >
           <template v-slot:icon ></template>
           <span 
@@ -39,30 +40,35 @@
       icon: true,
       years: [
         {
+          color: 'black',
           year: '2007',
           for: 'Brevet des collèges',
           des: 'Titulaire du Brevet des collèges.',
           etab: 'SAGEBIEN, Amiens'
         },
         {
+          color: 'black',
           year: '2010',
           for: 'BAC STI GMA',
           des: 'Titulaire du BAC STI "Génie Mécanique".',
           etab: 'E.BRANLY, Amiens',
         },
         {
+          color: 'black',
           year: '2012',
           for: 'BTS MI',
           des: 'Niveau 2ème année de BTS "Maintenance Industriel".',
           etab: 'E.BRANLY, Amiens',
         },
         {
+          color: 'black',
           year: '2016',
           for: 'Titre Professionnel PL/SPL',
           des: 'Obtention du permis C, CE et BE ainsi que l\'ABR niveau 1 et la FIMO.',
           etab: 'AFTRAL, Amiens',
         },
         {
+          color: 'black',
           year: '2020',
           for: 'Titre Professionel DWWM',
           des: 'En cours de formation du titre "Développelement Web et Web Mobile".',
