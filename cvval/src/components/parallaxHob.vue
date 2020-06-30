@@ -2,7 +2,7 @@
   <v-parallax
     dark
     height="200"
-    src="https://images.pexels.com/photos/1426620/pexels-photo-1426620.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+    src="https://images.pexels.com/photos/316149/pexels-photo-316149.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
   >
     <v-row
       align="center"

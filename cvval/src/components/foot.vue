@@ -16,7 +16,8 @@
         rounded
         class="my-2"
       >
-        {{ link }}
+          {{ link }}
+
       </v-btn>
       <br>
       <v-col
@@ -51,7 +52,7 @@
         'Contactez Moi',
         'Télécharger mon CV',
         'Mes réalisations',
-        'Contact',
+        'Qui suis je?',
       ],
       infos: [
         
@@ -62,6 +63,7 @@
       ]
     }),
   }
+
 </script>
 <style>
 

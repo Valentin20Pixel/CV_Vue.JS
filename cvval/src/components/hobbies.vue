@@ -67,7 +67,5 @@
   background-color: rgba(0, 0, 0, 0.493);
   padding: 3px 8px;
 }
-.photo{
 
-}
 </style>

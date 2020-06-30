@@ -38,7 +38,6 @@
     
     <v-content>
       <Home/>
-
       <parallaxCom/>
       <competence/>
       <parallaxFor/>
@@ -55,16 +54,16 @@
 </template>
 
 <script>
-import Home from './components/Home';
-import hobbies from './components/hobbies';
-import experience from './components/experience';
-import competence from './components/competence';
-import formation from './components/formation';
-import foot from './components/foot';
-import parallaxCom from'./components/parallaxCom';
-import parallaxFor from'./components/parallaxFor';
-import parallaxExp from'./components/parallaxExp';
-import parallaxHob from'./components/parallaxHob';
+import Home from '@/components/Home';
+import hobbies from '@/components/hobbies';
+import experience from '@/components/experience';
+import competence from '@/components/competence';
+import formation from '@/components/formation';
+import foot from '@/components/foot';
+import parallaxCom from'@/components/parallaxCom';
+import parallaxFor from'@/components/parallaxFor';
+import parallaxExp from'@/components/parallaxExp';
+import parallaxHob from'@/components/parallaxHob';
 
 
 
