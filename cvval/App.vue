@@ -16,7 +16,7 @@
         vertical
       ></v-divider>
       <v-toolbar-title>Valentin VAIN</v-toolbar-title>
-
+      <v-btn><router-link to="/Home">Maison</router-link></v-btn>
       <v-spacer></v-spacer>
       <v-divider
         class="mx-4"
@@ -37,54 +37,22 @@
     </v-app-bar>
     
     <v-content>
-      <Home/>
-      <parallaxCom/>
-      <competence/>
-      <parallaxFor/>
-      <formation/>
-      <parallaxExp/>
-      <experience/>
-      <parallaxHob/>
-      <hobbies/>
-      <foot/>
+      <router-view></router-view>
     </v-content>
-
+      <foot/>
           </v-card>
   </v-app>
 </template>
 
 <script>
-import Home from '@/components/Home';
-import hobbies from '@/components/hobbies';
-import experience from '@/components/experience';
-import competence from '@/components/competence';
-import formation from '@/components/formation';
 import foot from '@/components/foot';
-import parallaxCom from'@/components/parallaxCom';
-import parallaxFor from'@/components/parallaxFor';
-import parallaxExp from'@/components/parallaxExp';
-import parallaxHob from'@/components/parallaxHob';
-
-
-
 
 
 export default {
   name: 'App',
 
   components: {
-    Home,
-    hobbies,
-    experience,
-    competence,
-    formation,
     foot,
-    parallaxCom,
-    parallaxFor,
-    parallaxExp,
-    parallaxHob,
-
-
   },
 
   data: () => ({
