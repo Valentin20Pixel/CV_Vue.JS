@@ -36,9 +36,9 @@
       >
       
         <v-img
-          :src="require('../assets/img/LogoVV2.png')"
+          :src="require('../assets/img/LogoVV3.png')"
           contain
-          height="200"
+          height="100"
         />
       </v-row>
     </v-row>

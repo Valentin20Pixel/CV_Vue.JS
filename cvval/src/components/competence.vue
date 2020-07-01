@@ -15,8 +15,10 @@
   <v-divider></v-divider>
   <v-divider></v-divider>
   <v-row>
-
-
+    <div>
+  <router-link :to="{name: 'titlecom'}">titre</router-link>
+  <router-view></router-view>
+    </div>
     <v-col>
   <v-card
     class="mx-auto"
@@ -67,6 +69,7 @@
   </v-col>
   </v-row>
   <v-divider></v-divider>
+
   <v-divider></v-divider>
   </v-container>
     </body>

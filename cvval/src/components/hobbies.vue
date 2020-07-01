@@ -44,7 +44,7 @@
             src: `https://res.cloudinary.com/simpleview/image/upload/v1481922813/clients/surfcityusa-redesign/Volleyball_1_0df826c7-1cc7-4334-be80-078425e9069c.jpg`,
           },
           {
-            src: `https://images.pexels.com/photos/2662182/pexels-photo-2662182.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260`,
+            src: `https://cdn.pixabay.com/photo/2017/11/24/10/43/admission-2974645_960_720.jpg`,
           },
             {
             src: `https://images.pexels.com/photos/2831797/pexels-photo-2831797.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260`,
@@ -55,7 +55,7 @@
           'LECTURE',
           'HOCKEY',
           'SORTI ENTRE AMIS',
-          'CANOE',
+          'CINEMA',
           'DESSINS',
         ],
       }
