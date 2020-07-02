@@ -7,9 +7,10 @@
   
   >
 
-        <v-row
+    <v-row
       align="center"
       justify="center"
+      class="my-16"
     >
       <v-col cols="12">
         <v-img
@@ -18,8 +19,7 @@
           height="200"
         />
       </v-col>
-
-      <v-col class="homename col-5 mb-16">
+      <v-col class="homename col-5">
         <div id="name">
           <p>
             Valentin VAIN
@@ -45,20 +45,4 @@
   }
 </script>
 <style>
-
-.homename {
-  background-color: rgba(5, 5, 5, 0.767);
-  position: relative;
-  text-align: center;
-  color: white;
-
-}
-#pname{
-    font-family: 'Special Elite', cursive;
-    font-size: 25px;
-}
-#name{
-    font-family: 'Cinzel Decorative', cursive;
-    font-size: 70px;
-}
 </style>

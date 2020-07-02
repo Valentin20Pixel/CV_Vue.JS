@@ -4,16 +4,15 @@
     <v-app-bar
       id="navb"
       absolute
-      dense
       dark
       shrink-on-scroll
-      src="https://images.pexels.com/photos/330771/pexels-photo-330771.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+      src="https://images.pexels.com/photos/249203/pexels-photo-249203.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
     >
       <template v-slot:img="{ props }">
         <div>
         <v-img
           v-bind="props"
-          gradient="to top right, rgba(194, 40, 40, .7), rgba(100, 100, 100, 0.7)"
+          gradient="to top right, rgba(194, 40, 40, .3), rgba(100, 100, 100, 0.3)"
         ></v-img>
 
       
