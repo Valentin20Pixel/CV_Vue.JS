@@ -54,7 +54,7 @@
           'JEUX VIDEO',
           'LECTURE',
           'HOCKEY',
-          'SORTI ENTRE AMIS',
+          'SORTIS ENTRE AMIS',
           'CINEMA',
           'DESSINS',
         ],

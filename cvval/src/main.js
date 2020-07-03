@@ -8,13 +8,16 @@ import 'bootstrap-vue/dist/bootstrap-vue.css';
 import Home from './components/Home';
 import HomeCV from './components/HomeCV';
 import competence from './components/competence';
-// import formation from './components/formation';
-// import experience from './components/experience';
-// import hobbie from './components/hobbies';
+import formation from './components/formation';
+import experience from './components/experience';
+import hobbie from './components/hobbies';
 import parallaxcom from './components/parallaxCom';
-// import parallaxfor from './components/parallaxFor';
-// import parallaxexp from './components/parallaxExp';
-// import parallaxhob from './components/parallaxHob';
+import parallaxfor from './components/parallaxFor';
+import parallaxexp from './components/parallaxExp';
+import parallaxhob from './components/parallaxHob';
+import contact from './components/contact';
+import profil from './components/profil';
+
 
 
 
@@ -29,20 +32,39 @@ const router = new VueRouter ({
   mode: 'history',
   routes: [{
     path: '/', 
-    component: Home,
+    component:
+      Home,
+
     name: 'Accueil',
   },{
     path:'/CV',
     components: {
       default: HomeCV,
-      parallaxcom,
-      competence},
-      name: 'CV',
+      paracom: parallaxcom,
+      com: competence,
+      parafor: parallaxfor,
+      for: formation,
+      paraexp: parallaxexp,
+      exp: experience,
+      parahob: parallaxhob,
+      hob: hobbie,
+    }
+  },{
+    path: '/contact',
+    component:
+      contact,
+
+      name: 'Contact',
+  },{
+    path: '/profil',
+    component:
+      profil,
+
+      name: 'Profil',
   },{
     path:'*',
     redirect: '/'
-  }
-  ],
+  }]
 })
 
 new Vue({

@@ -2,7 +2,7 @@
 <template>
   <v-parallax
   height="1000"
-  :src="require('../assets/img/pcbg.jpg')"
+  :src="require('../assets/img/bg-grey.jpeg')"
   cover
   
   >

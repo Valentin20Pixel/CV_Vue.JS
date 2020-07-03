@@ -15,10 +15,6 @@
   <v-divider></v-divider>
   <v-divider></v-divider>
   <v-row>
-    <div>
-  <router-link :to="{name: 'titlecom'}">titre</router-link>
-  <router-view></router-view>
-    </div>
     <v-col>
   <v-card
     class="mx-auto"
@@ -100,11 +96,11 @@
           src: 'https://www.ambient-it.net/wp-content/uploads/2016/04/bootstrap-logo-175.png'},
           { id: "CodeIgniter", variant: 'danger', value: 75, val: 75,
           src: 'https://cdn1.iconfinder.com/data/icons/logos-3/304/codeigniter-icon-512.png'},
-          { id: "Vuetify", variant: 'primary', value: 50, val: 50,
+          { id: "Vuetify", variant: 'primary', value: 40, val: 40,
           src: 'https://seeklogo.com/images/V/vuetify-logo-3BCF73C928-seeklogo.com.png'},
-          { id: "WordPress", variant: 'info', value: 40, val: 40,
+          { id: "WordPress", variant: 'info', value: 30, val: 30,
           src: 'https://image.flaticon.com/icons/png/512/59/59137.png'},
-          { id: "Bootstrap Vue", variant: 'success', value: 40, val: 40,
+          { id: "Bootstrap Vue", variant: 'success', value: 20, val: 20,
           src: 'https://avatars0.githubusercontent.com/u/22965283?s=280&v=4'},
         ],
         timer: null

@@ -9,17 +9,45 @@
       no-gutters
     >
       <v-btn
-        v-for="link in links"
-        :key="link"
         color="white"
         text
         rounded
         class="my-2"
       >
           {{ link }}
+          <router-link to="/contact">Contactez moi</router-link>
+
+      </v-btn>
+           <v-btn
+        color="white"
+        text
+        rounded
+        class="my-2"
+      >
+          {{ link }}
+          <router-link to="/contact">Télécharger mon CV</router-link>
+
+      </v-btn>     <v-btn
+        color="white"
+        text
+        rounded
+        class="my-2"
+      >
+          {{ link }}
+          <router-link to="/contact">Mes Réalisations</router-link>
+
+      </v-btn>     <v-btn
+        color="white"
+        text
+        rounded
+        class="my-2"
+      >
+          {{ link }}
+          <router-link to="/contact">Qui suis je?</router-link>
 
       </v-btn>
       <br>
+      
       <v-col
         v-for="info in infos"
         :key="info"
@@ -32,9 +60,7 @@
       <v-row
       justify="center"
       no-gutters
-      
       >
-      
         <v-img
           :src="require('../assets/img/LogoVV3.png')"
           contain
@@ -48,7 +74,6 @@
   export default {
     data: () => ({
       links: [
-        'Home',
         'Contactez Moi',
         'Télécharger mon CV',
         'Mes réalisations',
@@ -57,9 +82,7 @@
       infos: [
         
         'Amiens, Picardie',
-        '28 ans - Permis + véhicule',
         'valentinvain@gmail.com',
-        '06 67 82 78 59',
       ]
     }),
   }
